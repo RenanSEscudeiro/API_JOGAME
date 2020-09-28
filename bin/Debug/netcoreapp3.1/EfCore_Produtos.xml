@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EfCore_Produtos</name>
+    </assembly>
+    <members>
+        <member name="M:EfCore_Produtos.Controllers.ProdutosController.Get">
+            <summary>
+            Mostra todos os produtos cadastrados
+            </summary>
+            <returns>Lista com todos os produtos</returns>
+        </member>
+        <member name="M:EfCore_Produtos.Controllers.ProdutosController.Get(System.Guid)">
+            <summary>
+            Mostra um único produto
+            </summary>
+            <param name="id">Id do produto</param>
+            <returns>Um produto</returns>
+        </member>
+        <member name="M:EfCore_Produtos.Controllers.ProdutosController.Post(EfCore_Produtos.Domains.Produto)">
+            <summary>
+            Cadastra um produto
+            </summary>
+            <param name="produto">Objeto completo de produto</param>
+            <returns>Produto cadastrado</returns>
+        </member>
+        <member name="M:EfCore_Produtos.Controllers.ProdutosController.Put(System.Guid,EfCore_Produtos.Domains.Produto)">
+            <summary>
+            Altera determinado produto    
+            </summary>
+            <param name="id">Id do produto</param>
+            <param name="produto">Objeto do produto com alterações</param>
+            <returns>Produto alterado</returns>
+        </member>
+        <member name="M:EfCore_Produtos.Controllers.ProdutosController.Delete(System.Guid)">
+            <summary>
+            Exclui um produto
+            </summary>
+            <param name="id">Id do produto</param>
+            <returns>Id excluido</returns>
+        </member>
+    </members>
+</doc>
